@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wms_welcome_bot"
+version = "0.0.1"
+description = "Greet new users telegram bot"
+authors = ["Roman Geraskin"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytelegrambotapi = "^4.19.1"
+
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "pep440"
+version_provider = "poetry"
+update_changelog_on_bump = true
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

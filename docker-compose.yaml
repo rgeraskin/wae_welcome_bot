@@ -1,0 +1,8 @@
+version: '3'
+services:
+  wms_welcome_bot:
+    build: .
+    image: rgeraskin/wms_welcome_bot:0.0.1
+    env_file:
+      # BOT_TOKEN=XXX
+      - .env

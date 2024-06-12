@@ -1,0 +1,4 @@
+.venv
+helm/secrets.yaml
+.env
+wms_welcome_bot/__pycache__/

@@ -1,0 +1,6 @@
+*
+!.dockerignore
+!wms_welcome_bot/
+!welcome.mp4
+!poetry.lock
+!pyproject.toml
